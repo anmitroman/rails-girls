@@ -15,7 +15,8 @@ group :production do
 end
 # Use Puma as the app server
 gem 'carrierwave'
-
+gem 'mini_magick'
+gem 'devise'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5'
