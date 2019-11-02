@@ -1,3 +1,3 @@
 class Comment < ApplicationRecord
-	belong_to :idea
+	belongs_to :idea
 end
